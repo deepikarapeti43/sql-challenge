@@ -1,5 +1,5 @@
 # sql-challenge
-This challenge is all about first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.Need to perform analysis using sql queries using csv files.Below are the 6 csv files.
+This challenge is all about first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.Need to perform analysis by writing queries using csv files.Below are the 6 csv files.
 employees.csv
 titles.csv
 departments.csv
