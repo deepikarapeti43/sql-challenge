@@ -1,10 +1,12 @@
---1.List the employee number, last name, first name, sex, and salary of each employee.
+﻿--1.List the employee number, last name, first name, sex, and salary of each employee.
+
 SELECT E.emp_no,E.last_name,E.first_name,E.sex,S.salary 
 FROM employees E
 JOIN salaries S
 ON E.emp_no=S.emp_no LIMIT 10;
 
 --2.List the first name, last name, and hire date for the employees who were hired in 1986.
+
 SELECT first_name,last_name,EXTRACT(YEAR FROM hire_date) AS hire_year
 FROM employees 
 WHERE EXTRACT(YEAR FROM hire_date)=1986 LIMIT 10;
